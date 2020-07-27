@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* focus on cellphone first*/
+
+.wrapper {
+  width: 100%;
+}
+
+.img-banner {
+  display: none;
+}
+
+.img-info {
+  width: 100%;
+}
+
+.img-info h2 {
+  padding: 20px 30px 20px;
+  font-family: arial;
+  font-size: 30px;
+  color: #111;
+  line-height: 44px;
+}
+.img-info p {
+  padding: 0 px 30px 20px;
+  font-family: arial;
+  font-size: 8px;
+  color: #111;
+  line-height: 24px;
+}
+.img-naty {
+  width: 100%;
+}
+
+/* focus on ipad */
+
+@media only screen and (min-width:768px) {
+    .img-banner {
+        display: block;
+        width:100%;
+        padding-bottom: 30px;
+      }
+      .wrapper {
+        width: 600px;
+        margin: 0 auto;
+      }
+
+    .img-info h2 {
+    padding: 20px 20px 0px;
+
+
+    }
+    .img-info p {
+    padding: 20 px 0px 0px;
+    font-size: 14px;
+
+    }
+    .img-naty {
+    padding-top: 30px;
+    }
+  
+}
+
+/* focus on computer */
+
+@media only screen and (min-width:1000px) {
+
+      .wrapper {
+        width: 1000px;
+      }
+
+      .img-info {
+        width:50%;
+        float: right;
+      }
+
+      .img-info h2 {
+            padding: 20px 20px 0px 30px;
+            }
+
+      .img-info p {
+            padding: 20 px 0px 0px 30px;
+            font-size: 14px;
+            }
+
+      .img-naty {
+            padding-top: 0px;
+            width:400px;
+            float: left;
+            }
+
+}
